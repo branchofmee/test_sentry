@@ -1,0 +1,108 @@
+@charset "utf-8";
+
+		html {scroll-behavior:smooth;}
+		#wrap {overflow: hidden;}
+		#upperheader0.sticky .lastli {background-color: #dfa25f;}
+
+		.btn1 {font-size: 1.4rem; color: #ffffff; background-color: #f03e5a; border-radius: 30px; padding: 13px 20px; display: inline-block; margin: 10px; cursor: pointer;} 
+		.btn2 {font-size: 1.4rem; color: #ffffff; border: 2px solid #ffffff; border-radius: 30px; padding: 13px 20px;  display: inline-block; margin: 10px;}
+		.btn2:hover{color: gray; background-color: white; cursor: pointer;}
+		.btn3 {font-size: 1.3rem; color: #ffffff; background-color: #dfa25f; border-radius: 30px; padding: 13px 20px; display: inline-block; margin: 10px auto;}
+		.btn3:hover {background-color: #232d41; cursor: pointer;}
+		.goldenline {width: 70px; height: 4px; border-top:1px solid #dfa25f; border-bottom:1px solid #dfa25f; margin: 20px auto;}
+
+		.fontstyle1 {font-size: 1.7rem; color: #ffffff; margin: 2rem 0rem; line-height: 25px; font-weight: 500;}
+		.fontstyle2 {font-size: 1.6rem; color: #777777;}
+		.fontstyle3 {font-size: 4rem; color: #dfa25f; font-family: 'Great Vibes', cursive;}
+		.fontstyle4 {font-size: 2.8rem; color: #111111; background-color: transparent; font-family: Oswald, sans-serif;}
+		.fontstyle5 {font-size: 1.3rem; color: #111111;}
+		.fontstyle6 {color: #fff; font-size: 3.5rem; letter-spacing: 1px;}
+		.fontstyle7 {color : #f03e5a !important; margin: 15px !important;}
+		h2{font-size: 3.8rem; color: #111111; font-family: 'Oswald', sans-serif;}
+		h3{font-size: 2.7rem; color:#ffffff;  background-color: #f03e5a; text-align: center; font-family: Oswald, sans-serif; padding: 7px 0px;}
+		nav ul li a {font-size: 1.5rem; }
+		.frame h3 {font-size: 2.8rem; letter-spacing: 1px;}
+		.frame p {font-size: 1.5rem; line-height: 23px;}
+		.section212 {font-size: 1.7rem; color: #111111; display: flex; flex-flow: row wrap;  margin: 10px 0 0 0px; }
+		.section213 {font-weight: bold;}
+		.section214 {height: 20px; border-bottom: 1px dotted #bbb; flex: 1;}
+		.section22 {font-size: 1.4rem; color: #777777; text-align: left; margin: 10px 0px;}
+		.section23 {display: flex; flex-flow: row wrap;}
+		.section24 {font-size: 1.3rem; color: #777777; margin: 0px 3px;}
+		.sec2icon {position: absolute; top: 15px; right: 15px; background-color: #dfa25f; color: #fff; border-radius: 5px; padding: 1% 2%; font-weight: 600;}
+		.menubox21 {width: 100%; font-size: 1.5rem; color: #111111; display: flex; flex-flow: row wrap; font-family: Karla, sans-serif;}
+		.menubox211 {font-weight: bold;}
+		.menubox3 {font-size: 1.2rem; color: #777777; text-align: left; padding: 5px 0px;}
+		.menubox4 {display: flex; flex-flow: row wrap; font-family: Karla, sans-serif;}
+		.menubox5 {font-size: 1.3rem; color: #777777;}
+		#section7 h4 {font-size: 2.7rem; font-family: Oswald, sans-serif;}
+		#section7 h3 {font-size: 2.7rem; font-family: Oswald, sans-serif; background-color: transparent;}
+		#section7 p {color: #fff; font-size: 1.5rem; margin: 15px;}
+		#section7 span {color: gray; font-size: 1.4rem; margin: 10px 0 0 0px; display: inline-block;}
+		.section731 {text-align: left; padding: 0 30px;}
+		.sec7style1	{color: #fff; text-align: left; margin : 0 0 0 15px; font-size: 3rem !important;}
+		.sec7style2 {text-align: left; font-size: 1.5rem !important; font-family: Oswald, sans-serif; letter-spacing: 1px;}
+		#section9 p {color: gray; font-size: 1.4rem;}
+		#sec1101 h3 {color: black; background-color: transparent;}
+		#sec1101 p {font-size: 1.4rem; color: gray; line-height: 24px;}
+		.sec11021 {color: #fff; background-color: transparent; display: flex; font-size: 1.4rem; margin: 15px 0px;}
+		
+		
+
+		#wrap{width: 100%; height: auto;}
+		#section2, #section4, #section5, #section7, #section9, #section11 {background-image: url(../img/main/pattern1.jpg); background-size: 16px;}
+		
+		header {background-image: url(../img/main/headerimg3.jpg) !important; background-position: center; background-size: cover;}
+		header {position: relative;}  /**arrowwrap의 안정적인 위치 지정용도**/
+		#arrowwrap {background-image: url(../img/main/arrowcover.png); background-size: contain; background-repeat: no-repeat; position: absolute; top: 97.5%; left: 47%; width: 100px; height: 28px; cursor: pointer;}
+		#arrowwrap img {position: absolute; top: 1%; left: 41%; width: 20px; height: 20px;}
+
+		.section211 > img {width: 100%; height: auto;}
+
+		#section3 {background-color: #fff; padding: 10px !important;}
+		#section3:hover {background-color: #dfa25f;}
+		#section301 > a > img {width: 70px; height: 70px;}
+
+		.sidecard img{width: 100%; height: 100%;}
+
+		#section6 {width: 100%; padding: 80px 30px;}
+
+		.menubox1 {width: 80px; height: 80px;}
+		.menubox1>img {width: 100%; height: 100%;}
+		.menubox2{width: 80%; padding: 0px 0px 0 20px;}
+		.menubox212 {height: 20px; border-bottom: 1px dotted #bbb; flex: 1;}
+
+		#section7 {padding: 50px 0px !important;}
+		#section7 >.innerwrap >div {margin: 15px auto; background-repeat: no-repeat; display: flex; flex-flow: row; align-items: center; justify-content: center;}
+		.section71 {width: 47%; height: 340px; background-image: url(../img/main/pic3.jpg); background-size:cover; background-position: 50% 50%; position: relative;}
+
+		#section8 {background-image: url(../img/main/pic5.jpg); background-size: cover; background-position: center; background-attachment: fixed; margin: 10px 0px; padding: 50px 0px; position: relative;}
+		#section8:before {content: ""; opacity: 0.3; position: absolute; top: 0px; left: 0px; right: 0px; bottom: 0px; background-color: #000;}
+		#section8 > .innerwrap {display: flex; flex-flow: column wrap; position: relative;}
+
+		#section901 img {width: 100%; height: 100%;}
+
+		.sec1001> img {width: 100%; height: 100%;}
+		.sec1001> img:hover {opacity: 0.7;}
+
+		#sec11011 {border: 1px solid gray; margin: 0 10px 0 0px; padding: 100px 0px;}
+		#sec1101 > div {width: 50%; height: 100%;}
+		#sec1101 img {width: 60px; height: 60px;}
+		#sec1101 iframe {width: 100%; height: 100%;}
+		#sec1102 h3 {background-color: transparent; margin: 0px 0px 30px 0px; letter-spacing: 1px;}
+
+		/**---------------common END------------------------**/
+
+
+		.section71:before {content: ""; opacity: 0.3; position: absolute; top: 0px; left: 0px; right: 0px; bottom: 0px; background-color: #000;}
+		.section72:before {content: ""; opacity: 0.3; position: absolute; top: 0px; left: 0px; right: 0px; bottom: 0px; background-color: #000;}
+		.section711 {position: relative;}
+		.section71 {position: relative;}
+		.section72 {position: relative;}
+		.slideinbottom {opacity: 0; transform: translate(0px, 70px); transition: all ease 1s;}
+		.slideinbottom0 {opacity: 0; transform: translate(0px, 70px); transition: all ease 1s;}
+		.slideinleft {opacity: 0; transform: translate(-70px, 0px); transition: all ease 1s;}
+		.slideinright {opacity: 0; transform: translate(70px, 0px); transition: all ease 1s;}
+
+
+		/**----------------for jquery END-------------------**/

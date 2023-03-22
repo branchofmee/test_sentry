@@ -1,0 +1,23 @@
+@charset "utf-8";
+
+
+@media all and (min-width: 741px) and (max-width: 990px){
+		html {font-size: 9.4px}
+
+		#upperheader1{width: 100%; display: flex; flex-flow: row wrap; justify-content: space-between;align-items: center;}
+		#upperheader {width: 100%; height: 60px;}
+		#menuicon {width: 30px; height: 30px; margin: 0 10px;}
+		#upperheader1>div>img {width: 100%; height: 100%;}
+		#upperheader img {width: 200px; height: 60px; margin: 0 0 0 10px;}
+		nav ul{display: block;}
+		nav ul li {text-align: center; background-color: #999 !important; opacity: 1 !important; padding: 10px; border-bottom: 1px solid #e3e3e3; display: block; position: relative; z-index: 99;}
+		nav ul li a {font-size: 1.5rem; color:#111111;}
+		nav ul li:hover {background-color: #fff !important;}	
+		nav{display: none;}
+
+		#upperfooter{width: 100%; display: flex; flex-flow: row wrap; justify-content: space-evenly; margin: 0 auto; padding: 45px 0px}
+		.footer1{width: 48%; display: flex; flex-flow: column wrap; padding: 0 0 0 20px;}
+
+		#footer11 {background-color: #fff; width: 280px; height: 330px;}
+		#lowerfooterbox {display: none;}
+	}

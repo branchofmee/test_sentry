@@ -1,0 +1,60 @@
+@charset "utf-8";
+
+	#wrap{width: 100%; height: auto;}
+	header {width: 100%; height: 480px; background-image: url(../img/sub/subheader3.jpg); background-position: 50% 47%; background-size: cover; background-repeat: no-repeat; display: flex; flex-flow: column wrap;}
+	header:before {content: ""; opacity: 0.3; position: absolute; top: 0px; left: 0px; right: 0px; bottom: 0px; background-color: #000; width: 100%; height: 480px;}
+
+	nav ul{display: block;}
+
+	h2 {font-size: 3.5rem; color: #111111; font-family: 'Oswald', sans-serif; margin: 20px 0px;}
+	h3 {font-size: 1.8rem; color: #111111; background-color: transparent; font-family: Oswald, sans-serif;  margin: 20px 0px;}
+	.subfont1 {font-size: 1.5rem; line-height: 2rem;}
+	.subfont2 {font-size: 1.7rem; color: #777777; line-height: 2.3rem;}
+	.subfont3 {font-size: 1.4rem;  line-height: 1.2em; margin: 8px 0px; color: #111111;}
+	.subfont4 {color: #fff; font-size: 4.5rem; margin: 15px 0px;}
+
+	#subboxleft > div {width: 100%; margin: 50px 0px;}
+	.subimgbox {width: 100%; height: 400px; margin: 10px 0px;}
+	.subimgbox img {width: 100%; height: 100%;}
+	.subimgbox video {width: 100%; height: 100%;}
+	.subbutton {font-size: 1.3rem; color: #ffffff; background-color: #dfa25f; border-radius: 30px; padding: 13px 20px; display: inline-block; margin: 20px auto;}
+	.subbutton:hover {background-color: #232d41;}
+
+	#subsec0601 {width: 90%; height: 390px; background-image: url(../img/main/pattern2.jpg); margin: 0px; padding: 10px;}
+	#subsec0601 >div {border: 1px solid #fff; width: 100%; height: 100%; padding: 20px;}
+	h4 {font-size: 3rem; color: #fff;}
+	#subsec0601 p {font-size: 1.5rem; color: #fff; margin: 20px 0px;}
+	#subsec0601 span {font-size: 1.5rem; color: #fff;}
+	
+	textarea {width: 90%; height: 120px;}
+	#subsec0601 >div >div {width: 90%; margin: 10px 0px;}
+	input[type=text] {width: 45%; height: 20px;}
+	input[type=checkbox] {margin: 0 6px 0 0px;}
+	.subbutton2 {font-size: 1.3rem; color: #ffffff; background-color: #dfa25f; border-radius: 5px; padding: 13px 20px; display: inline-block; margin: 20px auto; display: block; width: 130px;}
+
+	#subboxright > div {width: 100%; margin: 50px 0px;}
+
+	#subsec07 {margin: 130px 0 0 0px !important;}
+	
+	input[type=search] {color: #fff; height: 30px; width: 70%; background-color: #fff; border-radius: 5px; border: 2px solid gray; padding: 3px;}
+
+	/* 검색창 planB
+	input[type=search] {background-color: #212121; color: #fff; height: 30px; width: 70%;}
+	#subsec07 >div {background-color: #333; margin: 10px; padding: 10px; display: flex; flex-flow: row wrap; align-content: center;}
+	#subsec07 >div>div {width: 29%; height: 29px; background-color: #dfa25f; display: inline-block; cursor: pointer;}
+	#subsec07  >div>div>img {width: 23px; height: 20px; margin: 3px 39%;}
+	*/
+
+	#subsec09 >div {width: 100%; height: 75px; margin: 20px 0px;}
+	.subtags {height: 32px; color: black; border: 1px solid #f03e5a; font-size: 1.2rem; padding: 10px 15px; display: inline-block; margin: 2px;}
+	
+	/**main에 비해 너무 화려하다는 평가로 임시로 제외
+	.subtags:hover {color: #fff; background-color: #f03e5a;}
+	**/
+
+	.subsec1001 {width: 100%; height: 100px; margin: 10px 0px; display: flex; flex-flow: row wrap;}
+	.subsec1001 img {width: 30%; height: 100px; display: inline-block;}
+	.subsec1001 > div {width: 70%; height: 100px; padding: 5px;}
+
+	#subsec11 > a {font-size: 1.5rem; margin: 15px 5px; display: block; color: #000;}
+	#subsec11 > a:hover {text-decoration: underline;}

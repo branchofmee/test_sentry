@@ -1,0 +1,613 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>Siamo Napoli - Dine in, Delivery & Take out.</title>
+
+
+	<!--for use sentry-->
+	<script src="https://browser.sentry-cdn.com/7.44.2/bundle.tracing.min.js"
+		integrity="https://4509803eaa37456ca4d1119a9aed5a60@o4504852325072896.ingest.sentry.io/4504882701402112"
+		crossorigin="anonymous"></script>
+
+	<script>
+		Sentry.init({
+			dsn: "https://4509803eaa37456ca4d1119a9aed5a60@o4504852325072896.ingest.sentry.io/4504882701402112",
+			integrations: [new Sentry.BrowserTracing()],
+			tracesSampleRate: 1.0,
+		});
+	</script>
+
+
+	<script>
+		function error_start(){
+			console.log("error_test")
+			call_error();
+		}
+
+		function call_error(){
+			//Sentry.captureMessage('!!');
+			let error_var = document.getElementById('error_for_test');
+			let error_value = error_var.value;
+			console.log(error_value);
+			const myconst ="";
+			myconst ="";
+		}
+	</script>
+
+
+	<link href="css/reset.css" rel="stylesheet">
+	<link href="css/common.css" rel="stylesheet">
+	<link href="css/common_max740.css" rel="stylesheet">
+	<link href="css/common_min741+max990.css" rel="stylesheet">
+	<link href="css/common_min991.css" rel="stylesheet">
+	<link href="css/main.css" rel="stylesheet">
+	<link href="css/main_max740.css" rel="stylesheet">
+	<link href="css/main_min741+max900.css" rel="stylesheet">
+	<link href="css/main_min991.css" rel="stylesheet">
+
+	<link href="img/main/shortcuticon.png" rel="shortcut icon" type="image/x-icon">
+
+	<script src="https://ajax.aspnetcdn.com/ajax/jQuery/jquery-3.6.0.min.js"></script>
+	<script src="js/main.js"></script>
+</head>
+
+<body>
+	<div id="wrap">
+		<header>
+			<div id="upperheader0">
+				<div id="upperheader">
+					<div id="upperheader1">
+						<a href="#"></a>
+						<div id="menuicon"><img src="img/main/menuicon.png" alt="menu"></div>
+					</div>
+					<nav id="headernav">
+						<ul>
+							<li><a href="#">HOME</a></li>
+							<li><a href="sub.html">MENU</a></li>
+							<li><a href="sub.html">BLOG</a></li>
+							<li><a href="sub.html">ABOUT</a></li>
+							<li><a href="sub.html">CONTACT</a></li>
+							<li><a href="sub.html" class="btn3 lastli">Reservation</a></li>
+						</ul>
+					</nav>
+				</div>
+			</div>
+
+
+			<div class="innerwrap">
+				<div id="lowerheader">
+					<img src="img/main/logoimg.png" alt="img">
+					<div class="goldenline"></div>
+					<h3>WE'RE OPEN AND SAFE - OUTSIDE DINE-IN SEATING</h3>
+					<p class="fontstyle1 slideinbottom0">We understand the need for your safety and we are happy to
+						comply with current restrictions to ensure the health of our community. We are an authentic
+						Italian restaurant located in North Park, San Diego specializing in Neapolitan Pizza and
+						traditional food from Napoli. We offer limited outside dine-in seating with the necessary social
+						distancing practices for everyone's safety. Please call to inquire seating availability. In
+						addition, we offer delivery and take-out options via Toast. We look forward to serving you.</p>
+					<a href="sub.html" class="btn1 slideinbottom0">TOAST ORDER DELIVERY | TAKE OUT NOW</a>
+					<a href="sub.html" class="btn2 slideinbottom0">View Menus</a>
+				</div>
+			</div>
+			<a href="#target1">
+				<div id="arrowwrap"><img src="img/main/Arrow-down.png" alt="img"></div>
+			</a>
+		</header>
+
+		<div id="section1" class="section">
+			<div class="sectionheader" id="target1">
+				<div class="fontstyle3 slideinbottom">Discover</div>
+				<h2 class="slideinbottom">NEW FLAVORS</h2>
+				<div class="goldenline slideinbottom"></div>
+			</div>
+			<p class="fontstyle2 slideinbottom" id="sec11">Italian cuisine is nothing new in San Diego. But finding
+				traditional Neapolitan dishes and desserts is only possible thanks to us. Italy produces various dishes
+				depending on the region. Well, Naples has excellent sea<br>
+				food and, in case you didn't know, where pizza was first invented. So come and explore the new flavors
+				that will surprise your palette. So yeah, there's much more to Italian cuisine than lasagna.</p>
+			<a href="sub.html" class="btn3 slideinbottom">More About Us</a>
+		</div>
+		<!--id="section1" end-->
+
+		<div id="section2" class="section">
+
+			<div class="sectionheader">
+				<div class="fontstyle3 slideinbottom">Menu</div>
+				<h2 class="slideinbottom">SPECIAL DISHES</h2>
+				<div class="goldenline slideinbottom"></div>
+			</div>
+			<div class="innerwrap slideinbottom">
+				<div class="section211">
+					<img src="img/main/menu1.jpg" alt="foodimg">
+					<div class="sec2icon">PIZZA</div>
+					<div class="section212">
+						<div class="section213">MARGHERITA</div>
+						<div class="section214"></div>
+						<div>$</div>
+						<div>13.00</div>
+					</div>
+					<div class="section22">
+						Pomodoro sauce, mozzarella, and basil, EVO Oil.
+					</div>
+					<div class="section23">
+						<div class="fontstyle5">g.</div>
+						<div class="section24">/</div>
+						<div class="fontstyle5">cal.</div>
+					</div>
+				</div>
+
+				<div class="section211">
+					<img src="img/main/menu2.jpg" alt="foodimg">
+					<div class="sec2icon">ANTIPASTI</div>
+					<div class="section212">
+						<div class="section213">COZZE</div>
+						<div class="section214"></div>
+						<div>$</div>
+						<div>15.00</div>
+					</div>
+					<div class="section22">
+						Steamed Carlsbad mussels, black pepper and local farm lemon.
+					</div>
+					<div class="section23">
+						<div class="fontstyle5">g.</div>
+						<div class="section24">/</div>
+						<div class="fontstyle5">cal.</div>
+					</div>
+				</div>
+
+				<div class="section211">
+					<img src="img/main/menu3.jpg" alt="foodimg">
+					<div class="sec2icon">DESSERTS</div>
+					<div class="section212">
+						<div class="section213">TIRAMISÙ</div>
+						<div class="section214"></div>
+						<div>$</div>
+						<div>13.00</div>
+					</div>
+					<div class="section22">
+						Mascarpone, coffee and chocolate.
+					</div>
+					<div class="section23">
+						<div class="fontstyle5">g.</div>
+						<div class="section24">/</div>
+						<div class="fontstyle5">cal.</div>
+					</div>
+				</div>
+			</div>
+			<a href="sub.html" class="btn3 slideinbottom">View Full Menu</a>
+		</div>
+		<!--id="section2" end-->
+
+
+		<div id="section3" class="section">
+			<div id="section301">
+				<a href="#">
+					<img class="slideinbottom" src="img/main/icon1.png" alt="img">
+					<h2 class="fontstyle6 slideinbottom">RESERVE A TABLE</h2>
+				</a>
+			</div>
+		</div>
+		<!--id="section3" end-->
+
+
+		<div id="section4" class="section">
+			<div>
+				<div class="sidecard slideinleft"><img src="img/main/pic1.jpg" alt="img"></div>
+				<div class="frame slideinright">
+					<img src="img/main/icon2.png" alt="img">
+					<h3 class="fontstyle4">BEAUTIFUL INTERIOR</h3>
+					<div class="goldenline"></div>
+					<p class="fontstyle2">Our interior design reflects both the classic Italian decorations with a
+						modern twist. It will make you feel like you're absolutely at a restaurant in Naples.</p>
+				</div>
+			</div>
+		</div>
+		<!--id="section4" end-->
+
+
+		<div id="section5" class="section">
+			<div>
+				<div class="frame frame2 slideinleft">
+					<img src="img/main/icon3.png" alt="img">
+					<h3 class="fontstyle4">ONLY FRESH FOOD</h3>
+					<div class="goldenline"></div>
+					<p class="fontstyle2">Great pasta starts with excellent flour. This is how we prep for our pasta
+						dishes. You will be able to taste the difference!</p>
+				</div>
+				<div class="sidecard sidecard2 slideinright"><img src="img/main/pic2.jpg" alt="img"></div>
+			</div>
+		</div>
+		<!--id="section5" end-->
+
+
+		<div id="section6" class="section">
+			<div class="sectionheader">
+				<div class="fontstyle3 slideinbottom">More Dishes</div>
+				<h2 class="slideinbottom">FROM OUR MENU</h2>
+				<div class="goldenline slideinbottom"></div>
+			</div>
+
+			<div class="innerwrap slideinbottom">
+				<div class="menubox">
+					<div class="menubox1"><img src="img/main/menu1.jpg" alt="menuimg"></div>
+					<div class="menubox2">
+						<div class="menubox21">
+							<div class="menubox211">RAVIOLI CON MELANZANA</div>
+							<div class="menubox212"></div>
+							<div>$</div>
+							<div>20.00</div>
+						</div>
+						<div class="menubox3">
+							Handmade ravioli filled with eggplant parmigiana, cherry tomato and parmigiano fondue.
+						</div>
+						<div class="menubox4">
+							<div class="fontstyle5">g.</div>
+							<div class="section24">/</div>
+							<div class="fontstyle5">cal.</div>
+							<div class="new">NEW</div>
+						</div>
+					</div>
+				</div>
+
+				<div class="menubox">
+					<div class="menubox1"><img src="img/main/menu2.jpg" alt="menuimg"></div>
+					<div class="menubox2">
+						<div class="menubox21">
+							<div class="menubox211">MARGHERITA</div>
+							<div class="menubox212"></div>
+							<div>$</div>
+							<div>13.00</div>
+						</div>
+						<div class="menubox3">
+							Pomodoro sauce, mozzarella, and basil, EVO Oil.
+						</div>
+						<div class="menubox4">
+							<div class="fontstyle5">g.</div>
+							<div class="section24">/</div>
+							<div class="fontstyle5">cal.</div>
+							<div class="special">SPECIAL</div>
+						</div>
+					</div>
+				</div>
+
+				<div class="menubox">
+					<div class="menubox1"><img src="img/main/menu3.jpg" alt="menuimg"></div>
+					<div class="menubox2">
+						<div class="menubox21">
+							<div class="menubox211">COZZE</div>
+							<div class="menubox212"></div>
+							<div>$</div>
+							<div>15.00</div>
+						</div>
+						<div class="menubox3">
+							Steamed Carlsbad mussels, black pepper and local farm lemon.
+						</div>
+						<div class="menubox4">
+							<div class="fontstyle5">g.</div>
+							<div class="section24">/</div>
+							<div class="fontstyle5">cal.</div>
+							<div class="special">SPECIAL</div>
+						</div>
+					</div>
+				</div>
+
+				<div class="menubox">
+					<div class="menubox1"><img src="img/main/menu4.jpg" alt="menuimg"></div>
+					<div class="menubox2">
+						<div class="menubox21">
+							<div class="menubox211">CALAMARI FRITTI</div>
+							<div class="menubox212"></div>
+							<div>$</div>
+							<div>16.00</div>
+						</div>
+						<div class="menubox3">
+							Lightly fried calamari and castelvetrano olives.
+						</div>
+						<div class="menubox4">
+							<div class="fontstyle5">g.</div>
+							<div class="section24">/</div>
+							<div class="fontstyle5">cal.</div>
+							<div></div>
+						</div>
+					</div>
+				</div>
+
+				<div class="menubox">
+					<div class="menubox1"><img src="img/main/menu5.jpg" alt="menuimg"></div>
+					<div class="menubox2">
+						<div class="menubox21">
+							<div class="menubox211">ARUCOLA</div>
+							<div class="menubox212"></div>
+							<div>$</div>
+							<div>9.00</div>
+						</div>
+						<div class="menubox3">
+							Orange, fennel, goat cheese, dates, citrus dressing.
+						</div>
+						<div class="menubox4">
+							<div class="fontstyle5">g.</div>
+							<div class="section24">/</div>
+							<div class="fontstyle5">cal.</div>
+							<div></div>
+						</div>
+					</div>
+				</div>
+
+				<div class="menubox">
+					<div class="menubox1"><img src="img/main/menu6.jpg" alt="menuimg"></div>
+					<div class="menubox2">
+						<div class="menubox21">
+							<div class="menubox211">BURRATINA</div>
+							<div class="menubox212"></div>
+							<div>$</div>
+							<div>15.00</div>
+						</div>
+						<div class="menubox3">
+							Organic heirloom tomato and imported burrata
+						</div>
+						<div class="menubox4">
+							<div class="fontstyle5">g.</div>
+							<div class="section24">/</div>
+							<div class="fontstyle5">cal.</div>
+							<div class="new">NEW</div>
+						</div>
+					</div>
+				</div>
+
+				<div class="menubox">
+					<div class="menubox1"><img src="img/main/menu7.jpg" alt="menuimg"></div>
+					<div class="menubox2">
+						<div class="menubox21">
+							<div class="menubox211">VONGOLE</div>
+							<div class="menubox212"></div>
+							<div>$</div>
+							<div>14.00</div>
+						</div>
+						<div class="menubox3">
+							Manila clams, cold pressed EVO Oil, smoked garlic crostini.
+						</div>
+						<div class="menubox4">
+							<div class="fontstyle5">g.</div>
+							<div class="section24">/</div>
+							<div class="fontstyle5">cal.</div>
+							<div></div>
+						</div>
+					</div>
+				</div>
+
+				<div class="menubox">
+					<div class="menubox1"><img src="img/main/menu8.jpg" alt="menuimg"></div>
+					<div class="menubox2">
+						<div class="menubox21">
+							<div class="menubox211">TIRAMISÙ
+							</div>
+							<div class="menubox212"></div>
+							<div>$</div>
+							<div>8.00</div>
+						</div>
+						<div class="menubox3">
+							Mascarpone, coffee and chocolate.
+						</div>
+						<div class="menubox4">
+							<div class="fontstyle5">g.</div>
+							<div class="section24">/</div>
+							<div class="fontstyle5">cal.</div>
+							<div class="special">SPECIAL</div>
+						</div>
+					</div>
+				</div>
+			</div>
+			<a class="btn3 slideinbottom">View Full Menu</a>
+		</div>
+		<!--id="section6" end-->
+
+
+		<div id="section7" class="section">
+			<div class="innerwrap">
+				<div class="section71 slideinbottom">
+					<div class="section711">
+						<h3>DELICIOUS FOOD</h3>
+						<p>Fresh pasta dishes</p>
+						<a href="sub.html" class="btn3">View Menus</a>
+					</div>
+				</div>
+
+				<div class="section72 slideinbottom">
+					<div class="section711">
+						<h3>SPECIAL EVENTS</h3>
+						<p>Check out what event will come next. You really don't want to miss out on these.</p>
+						<a href="sub.html" class="btn3">Go to Blog</a>
+					</div>
+				</div>
+
+				<div class="section73 slideinbottom">
+					<div class="section731">
+						<h4>WELCOMING ATMOSPHERE</h4>
+						<span>You can find an open atmosphere where you can chat with many locals and visitors in our
+							bar area. Hint: It's a great place to bring someone for a date.</span>
+					</div>
+				</div>
+
+				<div class="section74 slideinbottom">
+					<div class="section741">
+						<h4 class="sec7style1">FULL BAR</h4>
+						<p class="sec7style2">TRY OUR EXCELLENT COCKTAILS</p>
+					</div>
+				</div>
+			</div>
+		</div>
+		<!--id="section7" end-->
+
+
+		<div id="section8" class="section">
+			<div class="innerwrap">
+				<div class="sectionheader">
+					<div class="fontstyle3 slideinbottom">Reservation</div>
+					<h2 class="fontstyle6 slideinbottom">BOOK YOUR TABLE</h2>
+					<div class="goldenline slideinbottom"></div>
+				</div>
+				<p class="fontstyle1 slideinbottom">Fish is one of the most wholesome foods that man can eat. In fact,
+					people have been eating fish throughout human history.</p>
+				<a href="sub.html" class="btn3 slideinbottom">Book a Table</a>
+			</div>
+		</div>
+		<!--id="section8" end-->
+
+
+		<div id="section9" class="section">
+			<div class="innerwrap">
+				<div id="section901" class="slideinleft"><img src="img/main/pic6.jpeg" alt="section_img"></div>
+				<div class="section902 slideinright">
+					<div class="fontstyle3">Chef’s Alfonso</div>
+					<h2>MADE WITH LOVE</h2>
+					<div class="goldenline"></div>
+					<p>All of our dishes are made with the best ingredients cooked to perfection.</p>
+				</div>
+			</div>
+		</div>
+		<!--id="section9" end-->
+
+
+		<div id="section10" class="section slideinbottom">
+			<div class="sec1001"><img src="img/main/prv1.jpg" alt="img"></div>
+			<div class="sec1001"><img src="img/main/prv2.jpg" alt="img"></div>
+			<div class="sec1001"><img src="img/main/prv3.jpg" alt="img"></div>
+			<div class="sec1001"><img src="img/main/prv4.jpg" alt="img"></div>
+			<div class="sec1001"><img src="img/main/prv5.jpg" alt="img"></div>
+			<div class="sec1001"><img src="img/main/prv6.jpg" alt="img"></div>
+			<div class="sec1001"><img src="img/main/prv7.jpg" alt="img"></div>
+			<div class="sec1001"><img src="img/main/prv8.jpg" alt="img"></div>
+			<div class="sec1001"><img src="img/main/prv9.jpg" alt="img"></div>
+			<div class="sec1001"><img src="img/main/prv10.jpg" alt="img"></div>
+		</div>
+		<!--id="section10" end-->
+
+
+		<div id="section11" class="section">
+			<div class="innerwrap">
+				<div id="sec1101" class="slideinbottom">
+					<div id="sec11011">
+						<img src="img/main/icon5.png" alt="img">
+						<h3>EASY TO FIND</h3>
+						<div class="goldenline"></div>
+						<p>
+							SIAMO NAPOLI<br>3959 30th St<br>Suite 105<br>San Diego CA 92104
+						</p>
+						<p>siamonapolisd@gmail.com</p>
+						<p class="fontstyle7">(619) 310-6981</p>
+					</div>
+					<div><iframe
+							src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3355.6148695565375!2d-117.13210164910147!3d32.74941579260586!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x80d9559be381501b%3A0x63f66df75bbc1c61!2sSiamo%20Napoli%20Restaurant!5e0!3m2!1sko!2skr!4v1637821915576!5m2!1sko!2skr"
+							width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy"></iframe></div>
+				</div>
+				<div id="sec1102" class=" slideinbottom">
+					<div>
+						<div class="fontstyle3">Restaurant</div>
+						<h3>ADJUSTED HOURS</h3>
+						<div class="sec11021">
+							<div>Monday</div>
+							<div class="menubox212"></div>
+							<div>4PM - 8:30PM</div>
+						</div>
+
+						<div class="sec11021">
+							<div>Tuesday</div>
+							<div class="menubox212"></div>
+							<div>4PM - 8:30PM</div>
+						</div>
+
+						<div class="sec11021">
+							<div>Wednesday</div>
+							<div class="menubox212"></div>
+							<div>4PM - 8:30PM</div>
+						</div>
+
+						<div class="sec11021">
+							<div>Thursday</div>
+							<div class="menubox212"></div>
+							<div>4PM - 8:30PM</div>
+						</div>
+
+						<div class="sec11021">
+							<div>Friday</div>
+							<div class="menubox212"></div>
+							<div>4PM - 9:30PM</div>
+						</div>
+
+						<div class="sec11021">
+							<div>Saturday</div>
+							<div class="menubox212"></div>
+							<div>4PM - 9:30PM</div>
+						</div>
+
+						<div class="sec11021">
+							<div>Sunday</div>
+							<div class="menubox212"></div>
+							<div>4PM - 8:30PM</div>
+						</div>
+						<a class="btn3" id="error_for_test" onclick="error_start()">Reservation</a>
+					</div>
+				</div>
+			</div>
+		</div>
+		<!--id="section10" end-->
+
+		<footer>
+			<div id="upperfooter">
+				<div class="footer1">
+					<h5>CONTACT INFO</h5>
+					<a href="#">SIAMO NAPOLI</a>
+					<a href="#">3959 30th St</a>
+					<a href="#">Suite 105</a>
+					<a href="#">San Diego CA 92104</a>
+					<a href="#">siamonapolisd@gmail.com</a>
+					<p>(619) 310-6981</p>
+				</div>
+
+				<div class="footer1">
+					<h5>NAVIGATION</h5>
+					<a href="#">Home</a>
+					<a href="#">ORDER DELIVERY | TAKE OUT</a>
+					<div><a href="#">Menu</a>
+						<div class="new footer001">update</div>
+					</div>
+					<a href="#">Catering Menu</a>
+					<a href="#">Blog</a>
+					<a href="#">About</a>
+					<a href="#">Contact</a>
+					<a href="#">Book a Table</a>
+				</div>
+
+				<div class="footer1">
+					<h5>RECENT POSTS</h5>
+					<p>September 4, 2019</p>
+					<a href="#">We are officially open!</a>
+					<div></div>
+					<a href="#">View All Posts</a>
+				</div>
+
+				<div class="footer1">
+					<h5>RECENT POSTS</h5>
+					<div id="footer11">
+						<div id="footer111"><img src="img/main/logo2.jpg" alt="img"> <a href="#">Go to View</a></div>
+						<a href="#"><img src="img/main/prv5.jpg" alt="img"></a>
+						<p>view more posts</p>
+					</div>
+				</div>
+			</div>
+
+			<div id="lowerfooter">
+				<p>All rights reserved 2019 © • Photography by Krissel Rivas and Graphic Design by Israel Hale</p>
+			</div>
+			<a href="#">
+				<div id="lowerfooterbox"><img src="img/main/Arrow-up.png" alt="img"></div>
+			</a>
+		</footer>
+	</div>
+	<!--id="wrap" end-->
+</body>
+
+</html>
