@@ -20,8 +20,25 @@
 			tracesSampleRate: 1.0,
 		});
 	</script>
-
-
+	
+	
+	<!--sentry_user_feedback-->
+	<script src="https://browser.sentry-cdn.com/7.44.2/bundle.min.js"
+		  integrity="https://4509803eaa37456ca4d1119a9aed5a60@o4504852325072896.ingest.sentry.io/4504882701402112"
+		  crossorigin="anonymous"></script>
+	<script>
+	  Sentry.init({
+	    dsn: "https://4509803eaa37456ca4d1119a9aed5a60@o4504852325072896.ingest.sentry.io/4504882701402112",
+	    beforeSend(event, hint) {
+	      if (event.exception) {
+		Sentry.showReportDialog({ eventId: event.event_id });
+	      }
+	      return event;
+	    },
+	  });
+	</script>
+	
+	
 	<script>
 		function error_start(){
 			console.log("error_test")
